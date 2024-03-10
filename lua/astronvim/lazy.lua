@@ -53,3 +53,5 @@ require("lazy").setup(astronvim.user_opts("lazy", {
   },
   lockfile = vim.fn.stdpath "data" .. "/lazy-lock.json",
 }))
+
+vim.cmd "set wrap"

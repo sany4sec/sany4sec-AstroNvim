@@ -72,3 +72,6 @@ for scope, table in pairs(options) do
     vim[scope][setting] = value
   end
 end
+
+-- spell chacker
+--
